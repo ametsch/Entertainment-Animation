@@ -1,0 +1,14 @@
+dist/*
+build/*
+Entertainment Animation/*
+music/*
+app.bin.spec
+app.exe.spec
+build.cmd
+build.sh
+install.cmd
+install.sh
+sclogo.ico
+Entertainment Animation.7z
+Entertainment Animation.zip
+Entertainment Animation.tar
