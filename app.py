@@ -65,7 +65,11 @@ def main():
     pygame.mixer.music.set_volume(.9)
 
     li = glob.glob('./music/*.ogg')
-    random.seed(datetime.now())
+    for i in glob.glob('./music/*.mp3'):
+        li.append(i)
+    for i in glob.glob('./music/*.wav'):
+        li.append(i)
+    random.seed(datetime.now().microsecond)
     random.shuffle(li)
 
     #print(li[0])

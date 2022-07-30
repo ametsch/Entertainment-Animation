@@ -12,4 +12,4 @@ For *nix and MacOS:
 
 
 ## Music
-**ALL MUSIC MUST USE [OGG VORBIS](https://xiph.org/vorbis/) AND MATCH THE GLOB PATTERN './music/*.ogg'**
+**ALL MUSIC MUST HAVE THE EXTENSION `.mp3`, `.wav` OR `.ogg`**
