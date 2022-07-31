@@ -1,15 +1,16 @@
 dist/*
 build/*
-Entertainment Animation/*
+Entertainment_Animation/*
 music/*
 app.bin.spec
 app.exe.spec
 build.cmd
-build.sh
+buildlinux.cmd
 install.cmd
 install.sh
 sclogo.ico
-Entertainment Animation.7z
-Entertainment Animation.zip
-Entertainment Animation.tar
-copy.sh
+Entertainment_Animation.7z
+Entertainment_Animation.zip
+Entertainment_Animation.tar
+copy.cmd
+compress.cmd

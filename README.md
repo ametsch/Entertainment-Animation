@@ -12,4 +12,4 @@ For *nix and MacOS run:
 
 
 ## Music
-All music must be in [mp3](https://en.wikipedia.org/wiki/MP3), [wav](https://en.wikipedia.org/wiki/WAV), or [ogg](https://en.wikipedia.org/wiki/Ogg) and must be in `./music`.
+All music must be in [mp3](https://en.wikipedia.org/wiki/MP3), [wav](https://en.wikipedia.org/wiki/WAV), or [ogg](https://en.wikipedia.org/wiki/Ogg) format and must be in `./music`.
