@@ -12,4 +12,4 @@ For *nix and MacOS:
 
 
 ## Music
-**ALL MUSIC MUST HAVE THE EXTENSION `.mp3`, `.wav` OR `.ogg`**
+**ALL MUSIC MUST HAVE THE EXTENSION `.mp3`, `.wav` OR `.ogg` AND MUST BE IN `./music`**
