@@ -93,7 +93,7 @@ def main():
                 exit(0)
             if event.type == pygame.KEYDOWN:
                 keys = pygame.key.get_pressed()
-                if keys[K_q] or keys[K_x]:
+                if keys[K_q] or keys[K_x] or keys[K_ESCAPE]:
                     pygame.mixer.quit()
                     pygame.quit()
                     exit(0)
@@ -101,6 +101,8 @@ def main():
                     pygame.mixer.music.pause()
                 if keys[K_p]:
                     pygame.mixer.music.unpause()
+                if keys[K_r]:
+                    pygame.mixer.music.rewind()
 
 
         glRotatef(1, 3, 1, 1)
