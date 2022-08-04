@@ -11,13 +11,6 @@ from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
 
-
-# sphereCenter = (
-#     (1, -1, -1), (1, 1, -1), (-1, 1, -1), (-1, -1, -1),
-#     (1, -1, 1), (1, 1, 1), (-1, -1, 1), (-1, 1, 1),
-#     (0, 0, 0)
-# )
-
 verticies = (
     (1, -1, -1), (1, 1, -1), (-1, 1, -1), (-1, -1, -1),
     (1, -1, 1), (1, 1, 1), (-1, -1, 1), (-1, 1, 1),
@@ -38,14 +31,6 @@ edges = (
     (17, 8), (18, 8), (19, 8), (20, 8)
 )
 
-# verticies = (
-#     (.05, -.05, -.05), (.05, .05, -.05), (-.05, .05, -.05), (-.05, -.05, -.05),
-#     (.05, -.05, .05), (.05, .05, .05), (-.05, -.05, .05), (-.05, .05, .05),
-#     (0, 0, 0), (.05, 0, .05), (-.05, 0, -.05), (-.05, 0, .05),
-#     (.05, 0, -.05), (.05, .05, 0), (-.05, -.05, 0), (.05, -.05, 0),
-#     (-.05, .05, 0), (0, .05, .05), (0, -.05, -.05), (0, .05, -.05),
-#     (0, -.05, .05)
-# )
 
 width, height = pyautogui.size()
 
@@ -62,13 +47,11 @@ def Cube():
 
 def main():
     pygame.init()
-    display = (width / 2 , height / 2)
-    pygame.display.set_caption('PyOpenGL X pygame test', 'sclogo.png')
-    pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
-
     pygame.mixer.init()
-    
-    pygame.mixer.music.set_volume(.9)
+    display = (width / 2 , height / 2)
+    pygame.display.set_caption('Entertainment Animation', 'sclogo.png')
+    pygame.display.set_mode(display, DOUBLEBUF | OPENGL)    
+    pygame.mixer.music.set_volume(1.0)
 
     li = glob.glob('./music/*.ogg')
     for i in glob.glob('./music/*.mp3'):
